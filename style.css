@@ -341,6 +341,7 @@ nav a:hover::after {
     /* Section2  */
 
     .section2-text-wrapper {
+        padding: 5%;
         width: 100%;
     }
 
