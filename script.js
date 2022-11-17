@@ -18,8 +18,11 @@ $('.shop-now p').hover(() => {
 
 $('#hamburger-icon').click(() => {
     $('.hamburger-mobile').slideToggle('slow').css('display', 'flex');
+    $('nav').css('display', 'none');
 });
 
 $('.close-menu').on('click', () => {
-    $('.hamburger-mobile').slideToggle();
+    $('.hamburger-mobile').slideToggle('slow');
+    $('nav').css('display', 'flex');
+
 });
