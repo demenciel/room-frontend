@@ -13,3 +13,13 @@ var swiper = new Swiper(".mySwiper", {
 $('.shop-now p').hover(() => {
     $('.shop-now img').slideToggle();
 });
+
+// responsive
+
+$('#hamburger-icon').click(() => {
+    $('.hamburger-mobile').slideToggle('slow').css('display', 'flex');
+});
+
+$('.close-menu').on('click', () => {
+    $('.hamburger-mobile').slideToggle();
+});
